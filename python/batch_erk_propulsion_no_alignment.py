@@ -43,19 +43,19 @@ if __name__ == "__main__":
     # this line to specify the path to the executable on your own
     # system)
     executable1 = Path(*Path.cwd().parts[:-4],
-                      "chaste_build/projects/erk_waves/test",
-                      "TestERKWaveWithSelfPropulsionNoAlignment")
+                      "chaste_build/projects/ShearForce/test",
+                      "TestShearForce")
 
     # Specify a root directory (or stem) for simulation output. This
     # will appear within the directory specified by the environment
     # variable "CHASTE_TEST_OUTPUT" and contain output from the
     # simulations launched in this script.
-    outdir_stem = "erk_waves_output/"
+    outdir_stem = "Shear_Force_output/"
 
     # Specify the parameters used to label the output directory (a
     # separate file "params.txt" containing all parameters and values
     # will be generated withing the directory)
-    outdir_labels = ["nx", "dt", "P0", "n_abcrit", "ab_ratio", "F0", "tau_p", "seed"]
+    outdir_labels = ["nx", "dt", "P0", "n_abcrit", "ab_ratio", "F0", "F1","tau_p", "seed"]
 
     # Specify sets of model simulation parameters
 
@@ -101,6 +101,7 @@ if __name__ == "__main__":
 
         # Self-propulsion force magnitude (or rather F0/\zeta, i.e. scaled by friction)
         "-F0": 0.15,
+        "-F1": 0.00005,
         # Ratio of mechanochemical coupling strengths alpha/beta
         "-ab_ratio": 18.5,
         # Magnitude of mechanochemical coupling strength alpha*beta as
