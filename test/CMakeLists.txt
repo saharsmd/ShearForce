@@ -35,4 +35,4 @@
 
 # This allows us to build tests of the project.
 # Simply set the project name in the line below.
-chaste_do_test_project(erk_waves)
+chaste_do_test_project(ShearForce)
