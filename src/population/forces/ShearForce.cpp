@@ -40,7 +40,7 @@ void ShearForce<DIM>::AddForceContribution(AbstractCellPopulation<DIM>& rCellPop
   VertexBasedCellPopulation<DIM>* p_cell_population = static_cast<VertexBasedCellPopulation<DIM>*>(&rCellPopulation);
   unsigned num_nodes = p_cell_population->GetNumNodes();
 
-  //unsigned width = p_cell_population->GetWidth(1);
+  // unsigned width = p_cell_population->GetWidth(1);
 
   
   
