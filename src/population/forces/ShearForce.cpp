@@ -1,4 +1,4 @@
-#include "SHEARFORCE.hpp"
+#include "ShearForce.hpp"
 #include <math.h>
 #include <cmath>
 template<unsigned DIM>
