@@ -1,6 +1,5 @@
 #include "ShearForce.hpp"
-#include <math.h>
-#include <cmath>
+
 template<unsigned DIM>
 ShearForce<DIM>::ShearForce()
   : AbstractForce<DIM>(),
