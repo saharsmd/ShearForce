@@ -1,5 +1,6 @@
 #include "ShearForce.hpp"
-
+#include <math.h>
+#include <cmath>
 template<unsigned DIM>
 ShearForce<DIM>::ShearForce()
   : AbstractForce<DIM>(),
@@ -39,8 +40,7 @@ void ShearForce<DIM>::AddForceContribution(AbstractCellPopulation<DIM>& rCellPop
   // Define some helper variables
   VertexBasedCellPopulation<DIM>* p_cell_population = static_cast<VertexBasedCellPopulation<DIM>*>(&rCellPopulation);
   unsigned num_nodes = p_cell_population->GetNumNodes();
-
-  // unsigned width = p_cell_population->GetWidth(1);
+  unsigned width = p_cell_population->GetWidth(1);
 
   
   
