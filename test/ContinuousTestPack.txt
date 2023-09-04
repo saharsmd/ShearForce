@@ -1,1 +1,1 @@
-TestSinusoidalShearForceVelocityAlignment.hpp
+TestSinusoidalShearForceNematic.hpp
