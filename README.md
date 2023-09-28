@@ -86,8 +86,8 @@ download).
 
 # Installation via Docker
 You can install Chaste by following the steps mentioned in [Docker Github Repo](https://github.com/Chaste/chaste-docker).
-Once your container launched successfully, you can start building the project as follows:
-First you should clone the respitoraty to your user projects directory.
+Once your container launched successfully, you can start building the project as follows:\
+First you should clone the respitoraty to the user projects directory.
 
     cd projects
 	git clone https://github.com/DBoocock/erk_waves.git
@@ -97,7 +97,7 @@ First you should clone the respitoraty to your user projects directory.
 When running setup.py you only need to select yes for the
 cell\_based component.
 
-You should build the project using the instruction:
+Then you should build the project using the instruction:
 
     cd scripts
 	. build_project.sh erk_waves c
