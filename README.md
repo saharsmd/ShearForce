@@ -92,7 +92,7 @@ You should build the project using the following steps:
  
 To run:
    
-   cd projects/erk_waves/python
+    cd projects/erk_waves/python
    	python batch_erk_propulsion_no_alignment.py
 
 Note that you should change the path to executable in batch_erk_propulsion_no_alignment.py before doing this step.
