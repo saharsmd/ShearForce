@@ -1,3 +1,21 @@
+# Vertex model simulations of mechanochemical ERK waves with a persistent random walk
+
+This software was developed using the user project template of
+Chaste. See the [User
+Projects](https://chaste.cs.ox.ac.uk/trac/wiki/ChasteGuides/UserProjects)
+guide on the Chaste wiki for more information.
+
+![](img/model_schematic.png)
+
+The software runs vertex model simulations based on the models
+presented in the following publications/preprints:
+
++ Boocock et al Nature Physics (2021) doi: [10.1038/s41567-020-01037-7](https://doi.org/10.1038/s41567-020-01037-7)
++ Boocock et al bioRxiv (2023) doi: [10.1101/2023.03.24.534111](https://doi.org/10.1101/2023.03.24.534111)
+
+The code can be used to reproduce the simulation results presented in
+Boocock et al (2023).
+
 # Installation 
 
 Before installation of this user project you will first need to
