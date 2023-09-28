@@ -86,7 +86,8 @@ download).
 
 # Installation via Docker
 You can install Chaste by following the steps mentioned in [Docker Github Repo](https://github.com/Chaste/chaste-docker).
-Once your container launched successfully, you can start building the project as follows:<br/>
+Once your container launched successfully, you can start building the project as follows:
+
 First you should clone the respitoraty to the user projects directory.
 
     cd projects
