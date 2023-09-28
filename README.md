@@ -71,7 +71,7 @@ the following information for each cell:
     A    # Cell area
     theta    # Angle of self-propulsion
 # Installation via Docker
-You can install Chaste by following the steps mentioned in [Docker Github Repo] (https://github.com/Chaste/chaste-docker).
+You can install Chaste by following the steps mentioned in [Docker Github Repo](https://github.com/Chaste/chaste-docker).
 Once your container launched successfully, you can start building the project as follows:
 1.First you should clone the respitoraty to your user projects directory.
 
