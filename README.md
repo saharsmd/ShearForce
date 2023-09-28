@@ -91,11 +91,11 @@ cell\_based component.
         make TestERKWaveWithSelfPropulsionNoAlignment
 `
 
-4. To run:``
+4. To run:`
    
    cd projects/erk_waves/python
    	python batch_erk_propulsion_no_alignment.py
-
+`
 Note that you should change the path to executable in batch_erk_propulsion_no_alignment.py before doing this step.
    
 
