@@ -83,7 +83,7 @@ First you should clone the respitoraty to your user projects directory.
 When running setup.py you only need to select yes for the
 cell\_based component.
 
-You should build the project using the following steps:
+You should build the project using the instruction:
 
     cd scripts
 	. build_project.sh erk_waves c
@@ -91,10 +91,11 @@ You should build the project using the following steps:
 	make TestERKWaveWithSelfPropulsionNoAlignment
  
 To run:
-   
-    cd projects/erk_waves/python
-   	python batch_erk_propulsion_no_alignment.py
 
+    cd projects/erk_waves/python
+	python batch_erk_propulsion_no_alignment.py
+	
+ 
 Note that you should change the path to executable in batch_erk_propulsion_no_alignment.py before doing this step.
    
 
