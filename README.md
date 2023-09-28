@@ -111,7 +111,7 @@ To run:
 	python batch_erk_propulsion_no_alignment.py
 	
  
-Note that you should change the path to executable in batch_erk_propulsion_no_alignment.py before doing this step.
+Note that you should change the path to the executable in batch_erk_propulsion_no_alignment.py before doing this step.
    
 #### Developing the code within the container
 You can use the instructions in [Developing the code within the container](https://github.com/Chaste/chaste-docker#developing-code-within-the-container) to access the files within your container directly and edit the codes.
