@@ -71,6 +71,19 @@ the following information for each cell:
     A    # Cell area
     theta    # Angle of self-propulsion
 
+Simulations can be visualized using
+[ParaView](https://www.paraview.org/download/): open ParaView and
+simply import the pvd file from the location
+"results\_from\_time\_xxxx/results.pvd" (consult the [Chaste
+Tutorials](https://chaste.cs.ox.ac.uk/chaste/tutorials/release_2021.1/UserTutorials.html)
+for further information).
+
+The analysis of simulation output published in Boocock et al (2023)
+was performed using a suite of Python scripts and modules that are
+available with data using the following [download
+link](https://seafile.ist.ac.at/f/7538561b4dba4bf69d49/) (850MB
+download).
+
 # Installation via Docker
 You can install Chaste by following the steps mentioned in [Docker Github Repo](https://github.com/Chaste/chaste-docker).
 Once your container launched successfully, you can start building the project as follows:
@@ -110,15 +123,3 @@ you can use the instuctions in [Share data between host and container](https://g
    
    
 
-Simulations can be visualized using
-[ParaView](https://www.paraview.org/download/): open ParaView and
-simply import the pvd file from the location
-"results\_from\_time\_xxxx/results.pvd" (consult the [Chaste
-Tutorials](https://chaste.cs.ox.ac.uk/chaste/tutorials/release_2021.1/UserTutorials.html)
-for further information).
-
-The analysis of simulation output published in Boocock et al (2023)
-was performed using a suite of Python scripts and modules that are
-available with data using the following [download
-link](https://seafile.ist.ac.at/f/7538561b4dba4bf69d49/) (850MB
-download).
