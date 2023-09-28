@@ -106,7 +106,7 @@ download).
 You can install Chaste by following the steps mentioned in [Docker Github repo](https://github.com/Chaste/chaste-docker).
 Once the container has launched successfully, you can start building the project as follows:
 
-First you should clone the repository to the user projects directory.
+First, you should clone the repository to the user projects directory.
 
     cd projects
 	git clone https://github.com/DBoocock/erk_waves.git
@@ -116,7 +116,7 @@ First you should clone the repository to the user projects directory.
 When running setup.py you only need to select yes for the
 cell\_based component.
 
-Then you should build the project using the instruction:
+Then you should build the project using the following instructions:
 
     cd scripts
 	. build_project.sh erk_waves c
@@ -134,7 +134,7 @@ Note that you should change the path to the executable in batch_erk_propulsion_n
 #### Developing the code within the container
 You can use the instructions in [Developing the code within the container](https://github.com/Chaste/chaste-docker#developing-code-within-the-container) to access the files within your container and edit the codes.
 #### Share data between the host and container
-Simulation output will be saved in the testoutput folder. You can use a [bind mount](https://github.com/Chaste/chaste-docker#sharing-data-between-the-host-and-container) to gain a direct access to this folder from the host.
+Simulation output will be saved in the testoutput folder. You can use a [bind mount](https://github.com/Chaste/chaste-docker#sharing-data-between-the-host-and-container) to gain direct access to this folder from the host.
 
    
    
