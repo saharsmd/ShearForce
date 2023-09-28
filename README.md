@@ -74,21 +74,27 @@ the following information for each cell:
 You can install Chaste by following the steps mentioned in [Docker Github Repo] (https://github.com/Chaste/chaste-docker).
 Once your container launched successfully, you can start building the project as follows:
 1.First you should clone the respitoraty to your user projects directory.
+
     cd projects
 	git clone https://github.com/DBoocock/erk_waves.git
 	cd erk_waves
 	python setup_project.py
+ 
 When running setup.py you only need to select yes for the
 cell\_based component.
 
 2. You should build the project using the following steps:
+
     cd scripts
 	. build_project.sh erk_waves c
     cd lib
         make TestERKWaveWithSelfPropulsionNoAlignment
-3. To run:
+
+
+4. To run:
    cd projects/erk_waves/python
    	python batch_erk_propulsion_no_alignment.py
+
 Note that you should change the path to executable in batch_erk_propulsion_no_alignment.py before doing this step.
    
 
