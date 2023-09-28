@@ -99,9 +99,9 @@ To run:
  
 Note that you should change the path to executable in batch_erk_propulsion_no_alignment.py before doing this step.
    
-## Developing the code within the container
+### Developing the code within the container
 you can use the instructions in [Docker Github Repo](https://github.com/Chaste/chaste-docker#developing-code-within-the-container) to access the files within your container directly.
-## Share data between host and container
+### Share data between host and container
 you can use the instuctions in [Docker Github Repo](https://github.com/Chaste/chaste-docker#developing-code-within-the-container](https://github.com/Chaste/chaste-docker#bind-mounts) to mount a directory in a container
 
 
