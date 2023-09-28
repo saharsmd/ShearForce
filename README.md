@@ -84,13 +84,12 @@ When running setup.py you only need to select yes for the
 cell\_based component.
 
 2. You should build the project using the following steps:
-    '''
-    cd scripts
-	. build_project.sh erk_waves c
-    	cd lib
-        make TestERKWaveWithSelfPropulsionNoAlignment
-'''
 
+    cd projects
+	git clone https://github.com/DBoocock/erk_waves.git
+	cd erk_waves
+	python setup_project.py
+ 
 4. To run:
    '''
    cd projects/erk_waves/python
