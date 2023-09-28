@@ -116,7 +116,7 @@ Note that you should change the path to the executable in batch_erk_propulsion_n
 #### Developing the code within the container
 You can use the instructions in [Developing the code within the container](https://github.com/Chaste/chaste-docker#developing-code-within-the-container) to access the files within your container directly and edit the codes.
 #### Share data between the host and container
-Simulation output will be saved in the testoutput folder and you can use the instuctions in [Share data between the host and container](https://github.com/Chaste/chaste-docker#developing-code-within-the-container) to mount this directory in the container.
+Simulation output will be saved in the testoutput folder. You can use the instuctions in [Share data between the host and container](https://github.com/Chaste/chaste-docker#developing-code-within-the-container) to mount this directory in the container.
 
 
    
